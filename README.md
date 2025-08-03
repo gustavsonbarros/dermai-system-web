@@ -40,27 +40,27 @@ O modelo foi treinado para reconhecer as seguintes classes:
 - NumPy
 - Pillow
 
-# 1. Clone o repositório
+## 1. Clone o repositório
 git clone https://github.com/gustavsonbarros/dermai-system-web.git
 
-# 2. Acesse a pasta do projeto
+## 2. Acesse a pasta do projeto
 cd dermai-system-web
 
-# 3. (Opcional) Crie um ambiente virtual
+## 3. (Opcional) Crie um ambiente virtual
 python -m venv venv
 
-# 4. Ative o ambiente virtual
-# No Windows:
+## 4. Ative o ambiente virtual
+## No Windows:
 venv\Scripts\activate
-# No Linux/macOS:
+## No Linux/macOS:
 source venv/bin/activate
 
-# 5. Instale as dependências
+## 5. Instale as dependências
 pip install -r requirements.txt
 # ou, se ainda não tiver o requirements.txt:
 pip install flask tensorflow pillow numpy
 
-# 6. Rode a aplicação Flask
+## 6. Rode a aplicação Flask
 python app.py
 
 ## 🌐 Acesse no navegador:
