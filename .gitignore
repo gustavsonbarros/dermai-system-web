@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.log
+
+# Ambiente virtual
+venv/
+.env/
+.venv/
+
+# Flask uploads
+static/uploads/
+
+# Modelos grandes
+*.h5
+*.keras
+*.pb
+*.tflite
+
+# Arquivos Jupyter
+.ipynb_checkpoints/
+
+# Configs do sistema operacional / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Arquivos temporários
+*.bak
+*.tmp
+*.swp
+*~

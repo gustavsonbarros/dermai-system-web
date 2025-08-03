@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DermAI - Classificação de Lesões de Pele</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>DermAI</h1>
+        <p class="subtitle">Classificação de Lesões de Pele</p>
+        
+        <div class="upload-area" id="uploadArea">
+            <input type="file" id="fileInput" accept="image/*">
+            <label for="fileInput">
+                <div class="upload-box">
+                    <img src="https://via.placeholder.com/150" alt="Ícone de upload" id="uploadIcon">
+                    <p>Arraste e solte uma imagem ou clique para selecionar</p>
+                </div>
+            </label>
+        </div>
+        
+        <div class="results" id="results" style="display: none;">
+            <h2>Resultados</h2>
+            <div class="image-preview">
+                <img id="previewImage" src="#" alt="Pré-visualização">
+            </div>
+            <div class="prediction-info">
+                <h3>Diagnóstico: <span id="predictionResult"></span></h3>
+                <p>Confiança: <span id="confidenceValue"></span></p>
+                
+                <div class="probabilities">
+                    <h4>Probabilidades:</h4>
+                    <ul id="probabilitiesList"></ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="error" id="errorBox" style="display: none;"></div>
+    </div>
+
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
